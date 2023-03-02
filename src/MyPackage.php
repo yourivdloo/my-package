@@ -16,7 +16,6 @@ class MyPackage
             $index = rand(0, strlen(self::$characters) - 1);
             $num .= self::$characters[$index];
         }
-
         return $num;
     }
 }
