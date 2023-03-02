@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "youri",
-            "email": "xepeme2570@wifame.com",
+            "email": "youri.yvdl@gmail.com",
             "role": "Developer"
         }
     ],
@@ -33,11 +33,6 @@
             "Yourivdloo\\MyPackage\\Tests\\": "tests"
         }
     },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
-    },
     "config": {
         "sort-packages": true
     },
@@ -50,5 +45,6 @@
                 "MyPackage": "Yourivdloo\\MyPackage\\MyPackageFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
