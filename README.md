@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/yourivdloo/my-package.svg?style=flat-square)](https://packagist.org/packages/yourivdloo/my-package)
 ![GitHub Actions](https://github.com/yourivdloo/my-package/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This package is solely meant for learning purposes, so to get more aquainted with package development
 
 ## Installation
 
@@ -36,7 +36,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email xepeme2570@wifame.com instead of using the issue tracker.
+If you discover any security related issues, please email nobody instead of using the issue tracker.
 
 ## Credits
 
