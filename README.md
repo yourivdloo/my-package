@@ -5,6 +5,7 @@
 ![GitHub Actions](https://github.com/yourivdloo/my-package/actions/workflows/main.yml/badge.svg)
 
 This package is solely meant for learning purposes, so to get more aquainted with package development.
+
 The package contains only one function, this function takes an integer and returns a random number with the length of the passed integer
 
 ## Installation
