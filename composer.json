@@ -1,50 +1,49 @@
 {
-    "name": "yourivdloo/my-package",
-    "description": "My awesome package",
-    "keywords": [
-        "yourivdloo",
-        "my-package"
-    ],
-    "homepage": "https://github.com/yourivdloo/my-package",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "youri",
-            "email": "youri.yvdl@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Yourivdloo\\MyPackage\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Yourivdloo\\MyPackage\\Tests\\": "tests"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Yourivdloo\\MyPackage\\MyPackageServiceProvider"
-            ],
-            "aliases": {
-                "MyPackage": "Yourivdloo\\MyPackage\\MyPackageFacade"
-            }
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "yourivdloo/my-package",
+  "description": "My awesome package",
+  "keywords": [
+    "yourivdloo",
+    "my-package"
+  ],
+  "homepage": "https://github.com/yourivdloo/my-package",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "youri",
+      "email": "youri.yvdl@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "illuminate/support": "^8.0",
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yourivdloo\\MyPackage\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Yourivdloo\\MyPackage\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yourivdloo\\MyPackage\\MyPackageServiceProvider"
+      ],
+      "aliases": {
+        "MyPackage": "Yourivdloo\\MyPackage\\MyPackageFacade"
+      }
+    }
+  }
 }
