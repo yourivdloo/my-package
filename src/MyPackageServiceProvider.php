@@ -50,7 +50,7 @@ class MyPackageServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'my-package');
+        $this->mergeConfigFrom(__DIR__.'/../config/my-package.php', 'my-package');
 
         // Register the main class to use with the facade
         $this->app->singleton('my-package', function () {

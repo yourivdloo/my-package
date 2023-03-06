@@ -2,6 +2,8 @@
 
 namespace Yourivdloo\MyPackage;
 
+use Exception;
+
 class MyPackage
 {
 
@@ -10,6 +12,15 @@ class MyPackage
     // Build your next great package.
     public static function getRandomNumber($length): string
     {
+
+
+
+        if (is_null(config('my-package'))) {
+            throw new Exception("Missing config file");
+        }
+        if ($length > config("my-package.max_num_length")) {
+            throw new Exception("Package configured with a max number length of " . strval(config("my-package.max_num_length")) . " - Passed a length of " . strval($length));
+        }
         $num = '';
 
         for ($i = 0; $i < $length; $i++) {
