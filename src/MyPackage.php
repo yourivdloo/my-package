@@ -13,8 +13,6 @@ class MyPackage
     public static function getRandomNumber($length): string
     {
 
-
-
         if (is_null(config('my-package'))) {
             throw new Exception("Missing config file");
         }
