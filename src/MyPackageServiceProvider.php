@@ -21,7 +21,7 @@ class MyPackageServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('my-package.php'),
+                __DIR__.'/../config/my-package.php' => config_path('my-package.php'),
             ], 'config');
 
             // Publishing the views.
