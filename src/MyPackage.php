@@ -9,7 +9,7 @@ class MyPackage
 
     protected static $characters = '0123456789';
 
-    // Build your next great package. last webhook commit
+    // Build your next great package. not last webhook commit
     public static function getRandomNumber($length): string
     {
 
